@@ -1,0 +1,21 @@
+*   6555231 (HEAD -> main) Merge feature/greeting-safety after resolving the intentional conflict
+|\
+| *   ffd05f5 (feature/greeting-safety) merge(lab6): resolve the greeting conflict preserving both features
+| |\
+| |/
+|/|
+* |   21564e3 Merge feature/greeting-name after local technical review
+|\ \
+| * | 5f4adf2 (feature/greeting-name) fix(lab6): handle empty names and accept the CLI name after review
+| * | 5fb9c0c feat(lab6): add a personalized bike sharing greeting
+|/ /
+| * d3f9598 fix(lab6): preserve the name and display the safety advice after review
+| * e386a3e feat(lab6): add a safety message on the same greeting line
+|/
+*   aec5cca Merge corrected Lab 5 UML package and seed Lab 6 exercise
+|\
+| * 729c20b (feature/lab5-uml-redo) docs(lab5): rebuild UML architecture package from the corrected guide
+|/
+* ee8aacb (origin/main, origin/HEAD) file ustgav
+* aa9e57b LAB4
+* 891a7e6 LAB2

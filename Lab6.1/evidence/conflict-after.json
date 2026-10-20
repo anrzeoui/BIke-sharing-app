@@ -1,0 +1,9 @@
+{
+  "import_has_no_stdout": true,
+  "empty_and_whitespace_names": true,
+  "trimmed_mongolian_name": true,
+  "both_feature_messages_preserved": true,
+  "cli_name_and_safety_note": true,
+  "cli_stdout": "Сайн уу, Ө. Анар! Нийтийн дугуй түрээсийн системд тавтай морил! Аюулгүй аяллыг хамтдаа эхлүүлье!\nДуулгаа өмсөж, дугуйн тоормосоо шалгаарай.\n",
+  "unmerged_files": ""
+}

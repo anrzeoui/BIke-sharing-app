@@ -1,0 +1,680 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" type="device">
+  <diagram id="lab5-page-1" name="01  Use Case Diagram">
+    <mxGraphModel dx="842" dy="595" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="842" pageHeight="595">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#147D79;strokeColor=none;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="842" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="ЛАБОРАТОРИ 5  /  НИЙТИЙН ДУГУЙ ТҮРЭЭСИЙН СИСТЕМ" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#147D79;text;" vertex="1" parent="1">
+          <mxGeometry x="36" y="23" width="650" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="01  Use Case Diagram" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=24;fontStyle=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="36" y="47" width="760" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Lab 2-ын үндсэн хэрэглэгчийн зорилгууд ба системийн хил" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#526570;text;" vertex="1" parent="1">
+          <mxGeometry x="36" y="85" width="765" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6" style="endArrow=none;strokeColor=#B5C9CE;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="36" y="551" as="sourcePoint" />
+            <mxPoint x="806" y="551" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="Баг-17 · Ө. Анар B242270129 · О. Хүслэн B242270073 · Н. Мөнхбаяр B242270058" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=8;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#526570;text;" vertex="1" parent="1">
+          <mxGeometry x="36" y="561" width="650" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="1 / 4" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=1;align=right;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="750" y="559" width="56" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#FAFCFC;strokeColor=#B5C9CE;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="186" y="121" width="464" height="363" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Нийтийн дугуй түрээсийн систем" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=11;fontStyle=1;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="205" y="128" width="423" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#15323F;fontColor=#15323F;ellipse;" vertex="1" parent="1">
+          <mxGeometry x="68" y="262" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="12" style="endArrow=none;strokeColor=#15323F;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="77" y="280" as="sourcePoint" />
+            <mxPoint x="77" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" style="endArrow=none;strokeColor=#15323F;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="59" y="292" as="sourcePoint" />
+            <mxPoint x="95" y="292" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" style="endArrow=none;strokeColor=#15323F;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="77" y="310" as="sourcePoint" />
+            <mxPoint x="60" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" style="endArrow=none;strokeColor=#15323F;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="77" y="310" as="sourcePoint" />
+            <mxPoint x="94" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="Хэрэглэгч&#10;(жуулчин багтана)" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="11" y="335" width="132" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#15323F;fontColor=#15323F;ellipse;" vertex="1" parent="1">
+          <mxGeometry x="740" y="210" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="18" style="endArrow=none;strokeColor=#15323F;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="749" y="228" as="sourcePoint" />
+            <mxPoint x="749" y="258" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" style="endArrow=none;strokeColor=#15323F;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="731" y="240" as="sourcePoint" />
+            <mxPoint x="767" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" style="endArrow=none;strokeColor=#15323F;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="749" y="258" as="sourcePoint" />
+            <mxPoint x="732" y="278" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" style="endArrow=none;strokeColor=#15323F;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="749" y="258" as="sourcePoint" />
+            <mxPoint x="766" y="278" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="Системийн&#10;оператор" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="683" y="283" width="132" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#15323F;fontColor=#15323F;ellipse;" vertex="1" parent="1">
+          <mxGeometry x="740" y="372" width="18" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="24" style="endArrow=none;strokeColor=#15323F;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="749" y="390" as="sourcePoint" />
+            <mxPoint x="749" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" style="endArrow=none;strokeColor=#15323F;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="731" y="402" as="sourcePoint" />
+            <mxPoint x="767" y="402" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" style="endArrow=none;strokeColor=#15323F;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="749" y="420" as="sourcePoint" />
+            <mxPoint x="732" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" style="endArrow=none;strokeColor=#15323F;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="749" y="420" as="sourcePoint" />
+            <mxPoint x="766" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="28" value="Засварын&#10;ажилтан" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="683" y="445" width="132" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="29" style="endArrow=none;strokeColor=#91A8AD;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="292" as="sourcePoint" />
+            <mxPoint x="209" y="172" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30" style="endArrow=none;strokeColor=#91A8AD;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="292" as="sourcePoint" />
+            <mxPoint x="209" y="218" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="31" style="endArrow=none;strokeColor=#91A8AD;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="292" as="sourcePoint" />
+            <mxPoint x="209" y="264" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32" style="endArrow=none;strokeColor=#91A8AD;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="292" as="sourcePoint" />
+            <mxPoint x="209" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="33" style="endArrow=none;strokeColor=#91A8AD;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="292" as="sourcePoint" />
+            <mxPoint x="209" y="356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34" style="endArrow=none;strokeColor=#91A8AD;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="292" as="sourcePoint" />
+            <mxPoint x="209" y="402" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="35" style="endArrow=none;strokeColor=#91A8AD;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="292" as="sourcePoint" />
+            <mxPoint x="209" y="448" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36" value="Бүртгүүлэх · US-01" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#147D79;fontColor=#15323F;ellipse;" vertex="1" parent="1">
+          <mxGeometry x="209" y="154" width="254" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="37" value="Нэвтрэх · US-02" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#147D79;fontColor=#15323F;ellipse;" vertex="1" parent="1">
+          <mxGeometry x="209" y="200" width="254" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="38" value="Зогсоол, сул дугуй харах&#10;US-03, US-04" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#147D79;fontColor=#15323F;ellipse;" vertex="1" parent="1">
+          <mxGeometry x="209" y="246" width="254" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="39" value="QR кодоор түрээс эхлүүлэх&#10;US-05" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#147D79;fontColor=#15323F;ellipse;" vertex="1" parent="1">
+          <mxGeometry x="209" y="292" width="254" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="40" value="Хугацаа, төлбөр харах · US-06" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#147D79;fontColor=#15323F;ellipse;" vertex="1" parent="1">
+          <mxGeometry x="209" y="338" width="254" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="41" value="Дугуй буцаах · US-07" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#147D79;fontColor=#15323F;ellipse;" vertex="1" parent="1">
+          <mxGeometry x="209" y="384" width="254" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="42" value="Төлбөр төлөх · US-08" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#147D79;fontColor=#15323F;ellipse;" vertex="1" parent="1">
+          <mxGeometry x="209" y="430" width="254" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="43" style="endArrow=none;strokeColor=#91A8AD;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="579" y="248" as="sourcePoint" />
+            <mxPoint x="731" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="44" value="Зогсоолын нөөц&#10;хянах · US-14" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#EFF7F5;strokeColor=#147D79;fontColor=#15323F;ellipse;" vertex="1" parent="1">
+          <mxGeometry x="482" y="215" width="146" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="45" style="endArrow=none;strokeColor=#91A8AD;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="579" y="408" as="sourcePoint" />
+            <mxPoint x="731" y="402" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="46" value="Засварын төлөв&#10;шинэчлэх · US-15" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#EFF7F5;strokeColor=#147D79;fontColor=#15323F;ellipse;" vertex="1" parent="1">
+          <mxGeometry x="482" y="375" width="146" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="47" value="QR түрээсийн урьдчилсан нөхцөл: хэрэглэгч нэвтэрсэн байна. Нэвтрэлтийг «include» гэж хүчээр холбогоогүй.&#10;Энэ нь үндсэн урсгалын зураг; US-09–US-13 нь Lab 2-ын backlog-д хэвээр. Админд тусдаа story хараахан байхгүй." style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#526570;text;" vertex="1" parent="1">
+          <mxGeometry x="36" y="497" width="770" height="42" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lab5-page-2" name="02  Class Diagram">
+    <mxGraphModel dx="842" dy="595" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="842" pageHeight="595">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#147D79;strokeColor=none;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="842" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="ЛАБОРАТОРИ 5  /  НИЙТИЙН ДУГУЙ ТҮРЭЭСИЙН СИСТЕМ" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#147D79;text;" vertex="1" parent="1">
+          <mxGeometry x="36" y="23" width="650" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="02  Class Diagram" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=24;fontStyle=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="36" y="47" width="760" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="5 үндсэн класс · attribute, operation, multiplicity · логик загвар" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#526570;text;" vertex="1" parent="1">
+          <mxGeometry x="36" y="85" width="765" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6" style="endArrow=none;strokeColor=#B5C9CE;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="36" y="551" as="sourcePoint" />
+            <mxPoint x="806" y="551" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="Баг-17 · Ө. Анар B242270129 · О. Хүслэн B242270073 · Н. Мөнхбаяр B242270058" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=8;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#526570;text;" vertex="1" parent="1">
+          <mxGeometry x="36" y="561" width="650" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="2 / 4" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=1;align=right;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="750" y="559" width="56" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="9" style="endArrow=none;strokeColor=#526570;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255" y="203" as="sourcePoint" />
+            <mxPoint x="315" y="278" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="283" y="203" />
+              <mxPoint x="283" y="278" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="1" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="260" y="183" width="22" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="0..*" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="288" y="255" width="25" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="үүсгэнэ" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=8;fontStyle=0;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="263" y="218" width="49" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="13" style="endArrow=none;strokeColor=#526570;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="278" as="sourcePoint" />
+            <mxPoint x="585" y="203" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="556" y="278" />
+              <mxPoint x="556" y="203" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="0..*" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="529" y="254" width="28" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="1" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="560" y="183" width="22" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="ашиглана" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=8;fontStyle=0;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="530" y="218" width="53" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="17" style="endArrow=none;strokeColor=#526570;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="298" as="sourcePoint" />
+            <mxPoint x="690" y="366" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="0..*" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="698" y="300" width="30" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="0..1" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="698" y="345" width="40" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="байрлана" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=8;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="726" y="323" width="65" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="21" style="endArrow=none;strokeColor=#526570;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="398" as="sourcePoint" />
+            <mxPoint x="255" y="421" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="283" y="398" />
+              <mxPoint x="283" y="421" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="1" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="287" y="379" width="22" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="0..1" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="258" y="425" width="39" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="төлбөр" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=8;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="259" y="397" width="50" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#147D79;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="45" y="132" width="210" height="166" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="User" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;fillColor=#EFF7F5;strokeColor=#147D79;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="45" y="132" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="- userId: int&#10;- fullName: String&#10;- email: String&#10;- passwordHash: String&#10;- role: UserRole" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="55" y="169" width="190" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="28" style="endArrow=none;strokeColor=#B5C9CE;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="254" as="sourcePoint" />
+            <mxPoint x="255" y="254" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="29" value="+ verifyPassword(): bool&#10;+ updateProfile(): void" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="55" y="261" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#147D79;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="315" y="238" width="210" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="Rental" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;fillColor=#EFF7F5;strokeColor=#147D79;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="315" y="238" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="- rentalId: int&#10;- startTime: DateTime&#10;- endTime: DateTime?&#10;- status: RentalStatus&#10;- cost: Decimal" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="325" y="275" width="190" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="33" style="endArrow=none;strokeColor=#B5C9CE;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="360" as="sourcePoint" />
+            <mxPoint x="525" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34" value="+ start(): void&#10;+ end(): void&#10;+ calculateCost(): Decimal" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="325" y="367" width="190" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="35" value="" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#147D79;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="585" y="132" width="210" height="166" as="geometry" />
+        </mxCell>
+        <mxCell id="36" value="Bike" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;fillColor=#EFF7F5;strokeColor=#147D79;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="585" y="132" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="37" value="- bikeId: int&#10;- qrCode: String&#10;- status: BikeStatus&#10;- currentStationId: int?" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="595" y="169" width="190" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="38" style="endArrow=none;strokeColor=#B5C9CE;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="238" as="sourcePoint" />
+            <mxPoint x="795" y="238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="39" value="+ markRented(): void&#10;+ markAvailable(): void&#10;+ reportDamage(): void" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="595" y="245" width="190" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="40" value="" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#147D79;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="585" y="366" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="41" value="Station" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;fillColor=#EFF7F5;strokeColor=#147D79;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="585" y="366" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="42" value="- stationId: int&#10;- name: String&#10;- location: GeoPoint&#10;- capacity: int" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="595" y="403" width="190" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="43" style="endArrow=none;strokeColor=#B5C9CE;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="585" y="472" as="sourcePoint" />
+            <mxPoint x="795" y="472" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="44" value="+ availableBikes(): int&#10;+ hasFreeDock(): bool" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="595" y="479" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="45" value="" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#FFFFFF;strokeColor=#147D79;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="45" y="366" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="46" value="Payment" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;fillColor=#EFF7F5;strokeColor=#147D79;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="45" y="366" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="47" value="- paymentId: int&#10;- amount: Decimal&#10;- status: PaymentStatus&#10;- providerRef: String?" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="55" y="403" width="190" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="48" style="endArrow=none;strokeColor=#B5C9CE;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="472" as="sourcePoint" />
+            <mxPoint x="255" y="472" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="49" value="+ request(): void&#10;+ confirm(): void" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="55" y="479" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="50" value="Тайлбар: дугуй түрээстэй үед зогсоолгүй (0..1). Түрээсийн төлбөр үүсээгүй байж болно (0..1).&#10;UserRole: CUSTOMER / OPERATOR / MAINTENANCE. Role нь заавал удамшил байх шаардлагагүй." style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=8;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#526570;text;" vertex="1" parent="1">
+          <mxGeometry x="36" y="520" width="770" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lab5-page-3" name="03  Sequence Diagram">
+    <mxGraphModel dx="842" dy="595" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="842" pageHeight="595">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#147D79;strokeColor=none;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="842" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="ЛАБОРАТОРИ 5  /  НИЙТИЙН ДУГУЙ ТҮРЭЭСИЙН СИСТЕМ" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#147D79;text;" vertex="1" parent="1">
+          <mxGeometry x="36" y="23" width="650" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="03  Sequence Diagram" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=24;fontStyle=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="36" y="47" width="760" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="US-05 · QR кодоор дугуй түрээслэх · амжилт ба боломжгүй нөхцөл" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#526570;text;" vertex="1" parent="1">
+          <mxGeometry x="36" y="85" width="765" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6" style="endArrow=none;strokeColor=#B5C9CE;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="36" y="551" as="sourcePoint" />
+            <mxPoint x="806" y="551" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="Баг-17 · Ө. Анар B242270129 · О. Хүслэн B242270073 · Н. Мөнхбаяр B242270058" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=8;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#526570;text;" vertex="1" parent="1">
+          <mxGeometry x="36" y="561" width="650" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="3 / 4" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=1;align=right;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="750" y="559" width="56" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Хэрэглэгч" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;fillColor=#EFF7F5;strokeColor=#147D79;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="13" y="128" width="138" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="10" style="endArrow=none;strokeColor=#B5C9CE;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="82" y="163" as="sourcePoint" />
+            <mxPoint x="82" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="Мобайл UI" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;fillColor=#EFF7F5;strokeColor=#147D79;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="236" y="128" width="138" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="12" style="endArrow=none;strokeColor=#B5C9CE;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="163" as="sourcePoint" />
+            <mxPoint x="305" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Rental Service" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;fillColor=#EFF7F5;strokeColor=#147D79;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="458" y="128" width="138" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="14" style="endArrow=none;strokeColor=#B5C9CE;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="527" y="163" as="sourcePoint" />
+            <mxPoint x="527" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Өгөгдлийн сан" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=1;align=center;verticalAlign=middle;fillColor=#EFF7F5;strokeColor=#147D79;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="681" y="128" width="138" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="16" style="endArrow=none;strokeColor=#B5C9CE;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="163" as="sourcePoint" />
+            <mxPoint x="750" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#D6EBE8;strokeColor=#147D79;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="518" y="202" width="18" height="239" as="geometry" />
+        </mxCell>
+        <mxCell id="18" style="endArrow=open;strokeColor=#15323F;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="82" y="193" as="sourcePoint" />
+            <mxPoint x="305" y="193" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="1. QR код уншуулах" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="87" y="168" width="213" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="20" style="endArrow=open;strokeColor=#15323F;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="228" as="sourcePoint" />
+            <mxPoint x="527" y="228" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="2. startRental(session, qr)" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="310" y="203" width="212" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="22" style="endArrow=open;strokeColor=#15323F;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="527" y="264" as="sourcePoint" />
+            <mxPoint x="750" y="264" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" value="3. reserveAndCreate(userId, qr)" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="532" y="239" width="213" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="24" style="endArrow=open;strokeColor=#15323F;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="300" as="sourcePoint" />
+            <mxPoint x="527" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" value="4. rentalId эсвэл боломжгүй" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="532" y="275" width="213" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=none;strokeColor=#B5C9CE;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="36" y="321" width="770" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="alt" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="43" y="323" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="[дугуй сул биш / идэвхтэй түрээс байгаа]" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="315" y="326" width="365" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="29" style="endArrow=open;strokeColor=#15323F;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="527" y="369" as="sourcePoint" />
+            <mxPoint x="305" y="369" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30" value="5a. Алдаа: түрээс эхлэх боломжгүй" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="310" y="344" width="212" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="31" style="endArrow=none;strokeColor=#B5C9CE;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="36" y="388" as="sourcePoint" />
+            <mxPoint x="806" y="388" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32" value="[түрээс амжилттай бүртгэгдсэн]" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="315" y="393" width="365" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="33" style="endArrow=open;strokeColor=#15323F;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="527" y="435" as="sourcePoint" />
+            <mxPoint x="305" y="435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34" value="5b. Түрээсийн ID, эхлэх цаг" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="310" y="410" width="212" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="35" style="endArrow=open;strokeColor=#15323F;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="470" as="sourcePoint" />
+            <mxPoint x="82" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36" value="6. Түрээс эхэлснийг харуулах" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="87" y="445" width="213" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="37" value="Урьдчилсан нөхцөл: хэрэглэгч нэвтэрсэн, хүчинтэй QR кодтой. Нэг transaction дотор дугуйн сул төлөв ба хэрэглэгчийн&#10;идэвхтэй түрээсийг шалгаж, дугуйг RENTED болгон түрээс үүсгэнэ; бүтэлгүй бол rollback хийнэ. Ингэснээр давхар түрээс үүсэхгүй.&#10;Энэ нь логик түрээсийн урсгал; бодит IoT түгжээний баталгаажуулалт, нөхөн сэргээх урсгалыг дараагийн загварт нарийвчилна." style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=8.5;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#526570;text;" vertex="1" parent="1">
+          <mxGeometry x="36" y="493" width="770" height="49" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lab5-page-4" name="04  Архитектурын эскиз">
+    <mxGraphModel dx="842" dy="595" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="842" pageHeight="595">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#147D79;strokeColor=none;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="842" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="ЛАБОРАТОРИ 5  /  НИЙТИЙН ДУГУЙ ТҮРЭЭСИЙН СИСТЕМ" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#147D79;text;" vertex="1" parent="1">
+          <mxGeometry x="36" y="23" width="650" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="04  Архитектурын эскиз" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=24;fontStyle=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="36" y="47" width="760" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Layered Architecture · Presentation → Business → Data" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#526570;text;" vertex="1" parent="1">
+          <mxGeometry x="36" y="85" width="765" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="6" style="endArrow=none;strokeColor=#B5C9CE;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="36" y="551" as="sourcePoint" />
+            <mxPoint x="806" y="551" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" value="Баг-17 · Ө. Анар B242270129 · О. Хүслэн B242270073 · Н. Мөнхбаяр B242270058" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=8;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#526570;text;" vertex="1" parent="1">
+          <mxGeometry x="36" y="561" width="650" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="4 / 4" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=1;align=right;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="750" y="559" width="56" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#FAFCFC;strokeColor=#B5C9CE;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="36" y="127" width="590" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="1  PRESENTATION" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#147D79;text;" vertex="1" parent="1">
+          <mxGeometry x="49" y="136" width="550" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Хэрэглэгчийн мобайл UI" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=center;verticalAlign=middle;fillColor=#EFF7F5;strokeColor=#B5C9CE;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="49" y="162" width="177" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Операторын вэб UI" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=center;verticalAlign=middle;fillColor=#EFF7F5;strokeColor=#B5C9CE;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="239" y="162" width="177" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Засварын ажилтны UI" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=center;verticalAlign=middle;fillColor=#EFF7F5;strokeColor=#B5C9CE;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="429" y="162" width="177" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#FAFCFC;strokeColor=#B5C9CE;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="36" y="237" width="590" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="2  BUSINESS" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#147D79;text;" vertex="1" parent="1">
+          <mxGeometry x="49" y="246" width="550" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="Auth Service" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=center;verticalAlign=middle;fillColor=#EFF7F5;strokeColor=#B5C9CE;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="49" y="272" width="177" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="Station / Rental Service" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=center;verticalAlign=middle;fillColor=#EFF7F5;strokeColor=#B5C9CE;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="239" y="272" width="177" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="Payment / Notification" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=center;verticalAlign=middle;fillColor=#EFF7F5;strokeColor=#B5C9CE;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="429" y="272" width="177" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#FAFCFC;strokeColor=#B5C9CE;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="36" y="347" width="590" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="3  DATA" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#147D79;text;" vertex="1" parent="1">
+          <mxGeometry x="49" y="356" width="550" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="User, Station" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=center;verticalAlign=middle;fillColor=#EFF7F5;strokeColor=#B5C9CE;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="49" y="382" width="177" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="Bike, Rental" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=center;verticalAlign=middle;fillColor=#EFF7F5;strokeColor=#B5C9CE;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="239" y="382" width="177" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="Payment / Repository" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=center;verticalAlign=middle;fillColor=#EFF7F5;strokeColor=#B5C9CE;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="429" y="382" width="177" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="24" style="endArrow=open;strokeColor=#147D79;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="331" y="214" as="sourcePoint" />
+            <mxPoint x="331" y="237" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25" value="HTTP / API" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=8;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#526570;text;" vertex="1" parent="1">
+          <mxGeometry x="350" y="215" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="26" style="endArrow=open;strokeColor=#147D79;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="331" y="324" as="sourcePoint" />
+            <mxPoint x="331" y="347" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" value="Repository / SQL" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=8;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#526570;text;" vertex="1" parent="1">
+          <mxGeometry x="350" y="326" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="Гадаад төлбөрийн&#10;үйлчилгээ" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=10;fontStyle=0;align=center;verticalAlign=middle;fillColor=#F5EEDC;strokeColor=#B19B6D;fontColor=#15323F;" vertex="1" parent="1">
+          <mxGeometry x="661" y="255" width="145" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="29" style="endArrow=open;strokeColor=#147D79;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="626" y="288" as="sourcePoint" />
+            <mxPoint x="661" y="288" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30" value="Төлбөрийн adapter нь&#10;Business давхаргад байна.&#10;UI нь DB-д шууд&#10;хандахгүй." style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#526570;text;" vertex="1" parent="1">
+          <mxGeometry x="659" y="330" width="148" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="Сонгосон үндэслэл" style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=12;fontStyle=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#15323F;text;" vertex="1" parent="1">
+          <mxGeometry x="36" y="449" width="770" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="Гурван гишүүнтэй баг UI, бизнес логик, өгөгдлийн ажлыг тусгаарлан хөгжүүлэхэд Layered архитектур тохиромжтой.&#10;Мобайл болон операторын вэб ижил service-ийг ашиглах тул түрээс, төлбөрийн дүрэм давхардахгүй.&#10;Repository интерфейс ашигласнаар өгөгдлийн сан эсвэл UI өөрчлөгдөхөд бусад давхаргын өөрчлөлт багасна.&#10;Төлбөрийн гадаад үйлчилгээг adapter-аар тусгаарлах нь дараагийн өргөтгөл, тест, засвар үйлчилгээг хялбарчилна." style="html=0;whiteSpace=wrap;fontFamily=DejaVu Sans;fontSize=9;fontStyle=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#526570;text;" vertex="1" parent="1">
+          <mxGeometry x="36" y="477" width="770" height="63" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

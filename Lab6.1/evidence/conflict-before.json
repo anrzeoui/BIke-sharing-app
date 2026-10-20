@@ -1,0 +1,9 @@
+{
+  "command": "git merge --no-ff main",
+  "exit_code": 1,
+  "stdout": "Auto-merging Lab6/greeting.py\nCONFLICT (content): Merge conflict in Lab6/greeting.py\nAutomatic merge failed; fix conflicts and then commit the result.\n",
+  "stderr": "",
+  "status": "UU Lab6/greeting.py\n?? Lab6/evidence/\n?? Lab6/lab2-4-review.md\n?? Lab6/review-notes.md\n",
+  "unmerged_stages": "100644 859b189e02da8d52c703a300084bbd47cc8b7129 1\tLab6/greeting.py\n100644 e19bfc15920ccf871f241afb37bfcc14ef0a4c00 2\tLab6/greeting.py\n100644 f061590e0bcf36b2012bec1c3d4a858b2398038d 3\tLab6/greeting.py\n",
+  "file_with_conflict_markers": "\"\"\"Lab 6 branching exercise; independent from Lab 2–4 and the application design.\"\"\"\n\nimport sys\n\n\ndef greeting(name: str = \"\") -> str:\n    cleaned_name = name.strip()\n    prefix = f\"Сайн уу, {cleaned_name}! \" if cleaned_name else \"\"\n<<<<<<< HEAD\n    return prefix + \"Аюулгүй аяллыг хамтдаа эхлүүлье!\"\n\n\ndef safety_note() -> str:\n    return \"Дуулгаа өмсөж, дугуйн тоормосоо шалгаарай.\"\n\n\nif __name__ == \"__main__\":\n    print(greeting())\n    print(safety_note())\n=======\n    return prefix + \"Нийтийн дугуй түрээсийн системд тавтай морил!\"\n\n\nif __name__ == \"__main__\":\n    print(greeting(\" \".join(sys.argv[1:])))\n>>>>>>> main\n"
+}

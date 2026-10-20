@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <p class="eyebrow">ТАНЫ ДАРААГИЙН АЯЛАЛ</p>
+  <h1>Хоттойгоо<br><span>ойрхон.</span></h1>
+  <p class="intro">Богино зайд зорчих шинэ боломж. Бүртгэлээ үүсгээд нийтийн дугуйн үйлчилгээнд нэгдээрэй.</p>
+  {% if user %}
+  <a class="button" href="{{ url_for('web.account') }}">Миний бүртгэл <span aria-hidden="true">↗</span></a>
+  {% else %}
+  <a class="button" href="{{ url_for('web.register') }}">Бүртгэл үүсгэх <span aria-hidden="true">↗</span></a>
+  <p class="form-link">Бүртгэлтэй юу? <a href="{{ url_for('web.login') }}">Нэвтрэх</a></p>
+  {% endif %}
+  <div class="facts"><span>01 / Бүртгүүл</span><span>02 / Нэвтэр</span><span>03 / Аяллаа эхлүүл</span></div>
+  <p class="muted">Одоогийн хувилбар: бүртгэл, нэвтрэлт. Дугуй түрээслэх боломж дараагийн хөгжүүлэлтэд нэмэгдэнэ.</p>
+</section>
+{% endblock %}

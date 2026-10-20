@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="mn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Нийтийн дугуй{% endblock %} · Bike Sharing</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="{{ url_for('web.index') }}"><span class="brand-icon" aria-hidden="true">↗</span> bike<span>sharing</span></a>
+    <span class="tag">БАГ 17 · НИЙТИЙН ДУГУЙ</span>
+  </header>
+  <main>
+    {% for category, message in get_flashed_messages(with_categories=true) %}
+      <div class="notice {{ category }}" role="status">{{ message }}</div>
+    {% endfor %}
+    {% block content %}{% endblock %}
+  </main>
+  <footer>Хотыг өөр хэмнэлээр мэдэр. <span>Нийтийн дугуй түрээсийн систем</span></footer>
+</body>
+</html>

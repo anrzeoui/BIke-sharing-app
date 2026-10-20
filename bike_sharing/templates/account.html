@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Миний бүртгэл{% endblock %}
+{% block content %}
+<section class="auth-layout">
+  <div class="auth-copy"><p class="eyebrow">МИНИЙ БҮРТГЭЛ</p><h1>Сайн уу,<br><span>{{ user.full_name }}.</span></h1><p class="intro">Та системд амжилттай нэвтэрлээ.</p><p class="muted">Дугуйн зогсоол хайх, түрээслэх боломжууд дараагийн хөгжүүлэлтээр нэмэгдэнэ.</p></div>
+  <div class="card"><h2>Бүртгэлийн мэдээлэл</h2>
+    <dl class="account-details"><dt>Овог, нэр</dt><dd>{{ user.full_name }}</dd><dt>Цахим шуудан</dt><dd>{{ user.email }}</dd></dl>
+    <form method="post" action="{{ url_for('web.logout') }}">
+      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+      <button class="button" type="submit">Системээс гарах <span aria-hidden="true">↗</span></button>
+    </form>
+  </div>
+</section>
+{% endblock %}

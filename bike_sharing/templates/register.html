@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Бүртгүүлэх{% endblock %}
+{% block content %}
+<section class="auth-layout">
+  <div class="auth-copy"><p class="eyebrow">01 / ЭХНИЙ АЛХАМ</p><h1>Аялал<br><span>эндээс эхэлнэ.</span></h1><p class="intro">Өөрийн бүртгэлийг үүсгэж, хот доторх аяллаа илүү хялбар болгоорой.</p><p class="muted">Нэр, цахим шуудан, нууц үг байхад хангалттай.</p></div>
+  <div class="card"><h2>Бүртгэл үүсгэх</h2><p class="muted">Тавтай морил. Мэдээллээ оруулна уу.</p>
+    {% if error %}<div class="notice error" role="alert">{{ error }}</div>{% endif %}
+    <form method="post">
+      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+      <label for="full_name">Овог, нэр</label>
+      <input id="full_name" name="full_name" autocomplete="name" minlength="2" maxlength="80" required value="{{ request.form.get('full_name', '') }}">
+      <label for="email">Цахим шуудан</label>
+      <input id="email" name="email" type="email" autocomplete="email" maxlength="254" required value="{{ request.form.get('email', '') }}">
+      <label for="password">Нууц үг</label>
+      <input id="password" name="password" type="password" autocomplete="new-password" minlength="8" maxlength="128" required aria-describedby="password-help">
+      <p id="password-help" class="hint">8-128 тэмдэгт. Нууц үгээ бусадтай бүү хуваалцаарай.</p>
+      <button class="button" type="submit">Бүртгүүлэх <span aria-hidden="true">↗</span></button>
+    </form>
+    <p class="form-link">Бүртгэлтэй юу? <a href="{{ url_for('web.login') }}">Нэвтрэх</a></p>
+  </div>
+</section>
+{% endblock %}

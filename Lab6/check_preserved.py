@@ -1,4 +1,4 @@
-"""Audit Lab 2–4 without changing them; write evidence only inside Lab6/evidence."""
+"""Audit Lab 2–4 against the current remote baseline; retain old evidence."""
 
 import hashlib
 import json
@@ -8,17 +8,18 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 EVIDENCE = ROOT / "Lab6/evidence"
+BASELINE = "b29dfdfac3be9142a155ffaf32fd9c0da679e44c"
 
 
 def main():
-    before = json.loads((EVIDENCE / "protected-files-before.json").read_text())
+    before = json.loads((EVIDENCE / "protected-files-before-current.json").read_text())
     after = {path: hashlib.sha256((ROOT / path).read_bytes()).hexdigest() for path in before}
     assert before == after, "A protected Lab 2–4 file changed"
     subprocess.run(
-        ["git", "diff", "--exit-code", "ee8aacbb910ecee079c9c9b4cf17305b99a6e1f3", "--", *before],
+        ["git", "diff", "--exit-code", BASELINE, "--", *before],
         cwd=ROOT, check=True, capture_output=True,
     )
-    (EVIDENCE / "protected-files-after.json").write_text(json.dumps(after, indent=2) + "\n")
+    (EVIDENCE / "protected-files-after-current.json").write_text(json.dumps(after, indent=2) + "\n")
 
     lab3 = (ROOT / "Lab3/Lab3.md").read_text()
     section = lab3.split("## 7. Шинэчилсэн Product Backlog")[1].split("## 8.")[0]
@@ -62,7 +63,7 @@ def main():
         "day_end_convention": "start <= day < review; review <= day < done; done <= day",
         "cfd_comparison": comparison,
     }
-    (EVIDENCE / "lab2-4-numeric-audit.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
+    (EVIDENCE / "lab2-4-numeric-audit-current.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
     print("PASS: protected Lab 2–4 bytes and git diff are unchanged")
     print(f"Backlog: {sum(points.values())} SP; Sprint: {sprint} SP; remaining: {sum(points.values())-sprint} SP")
     print(f"Cycle Time: {cycle_sum} / {len(cards)} = {cycle_sum/len(cards)} days")

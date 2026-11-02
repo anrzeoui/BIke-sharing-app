@@ -64,6 +64,11 @@ git merge --no-ff feature/greeting-safety
 - [Conflict-ийн дараах шалгалт](evidence/conflict-after.json) — unmerged file байхгүй, хоёр feature хадгалагдсан.
 - [Техникийн review-ийн 4 санал](review-notes.md) — аль асуудлыг ямар fix commit зассаныг тайлбарласан.
 - [Lab 2–4-ийн тусдаа review](lab2-4-review.md) — эх файлуудыг засварлаагүй.
+- [Remote PR review-г гүйцээх](publish.md) — хоёр хүний хийх дараалал.
+
+Хуучин SHA snapshot нь 2026-10-19-ний `ee8aacb` суурьд хамаарна.
+Одоогийн `main` (`b29dfdf`) дээрх байт өөрчлөгдөөгүйг
+`protected-files-before-current.json`-тай шинэчилсэн `check_preserved.py` шалгана.
 
 ```bash
 python3 Lab6/greeting.py "Ө. Анар"

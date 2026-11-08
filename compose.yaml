@@ -1,0 +1,12 @@
+services:
+  web:
+    build: .
+    image: bike-sharing-lab8:1.0
+    ports:
+      - "3000:3000"
+    volumes:
+      - bike-instance:/app/instance
+    restart: unless-stopped
+
+volumes:
+  bike-instance:

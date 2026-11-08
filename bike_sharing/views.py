@@ -12,6 +12,12 @@ from .repository import UserRepository
 blueprint = Blueprint("web", __name__)
 
 
+@blueprint.get("/healthz")
+def healthz():
+    get_db().execute("SELECT 1").fetchone()
+    return {"status": "ok"}
+
+
 def csrf_token():
     if "csrf_token" not in session:
         session["csrf_token"] = secrets.token_hex(32)

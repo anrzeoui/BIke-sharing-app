@@ -1,0 +1,60 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bike-sharing
+  labels:
+    app: bike-sharing
+spec:
+  replicas: 3
+  revisionHistoryLimit: 2
+  selector:
+    matchLabels:
+      app: bike-sharing
+  template:
+    metadata:
+      labels:
+        app: bike-sharing
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 10001
+        runAsGroup: 10001
+        fsGroup: 10001
+      containers:
+        - name: web
+          image: bike-sharing-lab8:1.0
+          imagePullPolicy: Never
+          ports:
+            - name: http
+              containerPort: 3000
+          env:
+            - name: BIKE_SECRET_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: bike-sharing-secret
+                  key: BIKE_SECRET_KEY
+          volumeMounts:
+            - name: instance
+              mountPath: /app/instance
+          readinessProbe:
+            httpGet:
+              path: /healthz
+              port: http
+            initialDelaySeconds: 2
+            periodSeconds: 5
+          livenessProbe:
+            httpGet:
+              path: /healthz
+              port: http
+            initialDelaySeconds: 10
+            periodSeconds: 10
+          resources:
+            requests:
+              cpu: 50m
+              memory: 64Mi
+            limits:
+              cpu: 500m
+              memory: 256Mi
+      volumes:
+        - name: instance
+          emptyDir: {}

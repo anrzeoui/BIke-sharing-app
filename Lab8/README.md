@@ -54,10 +54,3 @@ docker build --progress=plain -t bike-sharing-lab8:1.0 .
 
 Build гаралтаас `RUN pip install` алхам `CACHED` болсныг шалгана. `requirements.txt` өөрчлөгдвөл энэ алхам дахин ажиллана.
 
-## Хүлээлгэн өгөх баримт
-
-- `Dockerfile` болон түүнд шаардлагатай файлууд.
-- `docker build`-ийн амжилттай гаралт, кэш ашиглалтыг харуулсан бодит screenshot.
-- `http://localhost:3000` дээр ажиллаж буй аппын бодит screenshot.
-
-Screenshot-ыг ажиллуулсан орчноосоо авна; энэ репод бодитоор аваагүй зургийг хавсаргаагүй.
